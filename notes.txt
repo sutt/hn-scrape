@@ -1,0 +1,27 @@
+Instructions
+
+- curl the page to the directory
+- load script.js to the local page.html window 
+- use interactive session in devtools to write the content of getComments()
+    - the result is an array of text here
+
+- create a server/ directory, build a simple express/node project
+    - use body parsing large payload setting
+    - use cors
+    - listen for a post of json and write to file
+
+- send the parsed comments to the server to enable writing to the filesystem of output.json
+
+- load the json into pandas
+- use pandas and nltk to do eda of indv words
+
+
+
+[x] make a json from the posts
+    [x] curl the page
+    [x] load a script in devtools
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = 'script.js';
+        document.head.appendChild(script);
+
